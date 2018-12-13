@@ -3,11 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 gem 'font-awesome-sass'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap'#, '~> 4.0.0.alpha3'
 gem 'jquery-rails'
 
-gem 'paperclip', git: "git://github.com/thoughtbot/paperclip.git"
-
+gem 'paperclip'# git: "git://github.com/thoughtbot/paperclip.git"
+gem 'aws-sdk'
+gem 'mini_racer'
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
